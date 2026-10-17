@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CardBatchIntakeAll.Tests/CardBatchIntakeAll.Tests.csproj" Id="93f89b4d-52c0-41dd-98df-90e98890ba55" />
+  <Project Path="CardBatchIntakeAll/CardBatchIntakeAll.csproj" />
+</Solution>

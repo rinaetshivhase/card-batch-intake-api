@@ -1,0 +1,72 @@
+# ---------------------------------------------
+# Build output
+# ---------------------------------------------
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+publish/
+out/
+
+# ---------------------------------------------
+# Test results
+# ---------------------------------------------
+[Tt]est[Rr]esult*/
+*.trx
+coverage/
+*.coverage
+*.coveragexml
+
+# ---------------------------------------------
+# Local SQLite database (contains test cardholder data)
+# A fresh database is created automatically on first run.
+# ---------------------------------------------
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# ---------------------------------------------
+# Visual Studio
+# ---------------------------------------------
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# ---------------------------------------------
+# Other editors
+# ---------------------------------------------
+.vscode/
+.idea/
+*.swp
+
+# ---------------------------------------------
+# NuGet
+# ---------------------------------------------
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+
+# ---------------------------------------------
+# Secrets and local-only settings
+# ---------------------------------------------
+*.pfx
+*.key
+appsettings.*.local.json
+.env
+
+# ---------------------------------------------
+# Operating system files
+# ---------------------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
